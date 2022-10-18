@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="./categories">Danh mục bài viết</Link>
+        <Link href="/categories">Danh mục bài viết</Link>
       </main>
 
       <footer className={styles.footer}>

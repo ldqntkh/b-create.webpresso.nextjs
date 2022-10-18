@@ -16,7 +16,7 @@ export default function Categories({categories}) {
                 <h3>Danh mục bài viết</h3>
                 <ul>
                     {
-                        categories && categories.map((cat, index)=> <li key={cat.id}><Link href={`./categories/${cat.slug}`}>{cat.name}</Link></li>)
+                        categories && categories.map((cat, index)=> <li key={cat.id}><Link href={`/categories/${cat.slug}`}>{cat.name}</Link></li>)
                     }
                 </ul>
             </main>
