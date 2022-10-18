@@ -23,7 +23,7 @@ export default function Category({ postData }) {
                         postData.map((post)=> {
                             return(
                                 <li key={post.id}>
-                                    <Link href={`/blogs/${post.slug}`}>
+                                    <Link href={`./blogs/${post.slug}`}>
                                         <h3>{post.title.rendered}</h3>
                                     </Link>
                                 </li>
